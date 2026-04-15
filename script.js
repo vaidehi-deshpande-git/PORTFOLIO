@@ -31,16 +31,16 @@ document.addEventListener("DOMContentLoaded", () => {
   // applyTheme(detectPreferredTheme());
 
   // Theme toggle button
-  const themeToggle = document.getElementById("themeToggle");
-  if (themeToggle) {
-    themeToggle.addEventListener("click", () => {
-      const current =
-        document.documentElement.getAttribute("data-theme") || "light";
-      const next = current === "light" ? "dark" : "light";
-      // applyTheme(next);
-      localStorage.setItem(THEME_KEY, next);
-    });
-  }
+  // const themeToggle = document.getElementById("themeToggle");
+  // if (themeToggle) {
+  //   themeToggle.addEventListener("click", () => {
+  //     const current =
+  //       document.documentElement.getAttribute("data-theme") || "light";
+  //     const next = current === "light" ? "dark" : "light";
+  //     // applyTheme(next);
+  //     localStorage.setItem(THEME_KEY, next);
+  //   });
+  // }
 
   // Dynamic year
   const yearSpan = document.getElementById("year");
